@@ -102,7 +102,7 @@ public class TelaInicial extends JFrame {
 					
 					if(rs.next()) {
 						
-						TelaInicial exibir = new TelaInicial();
+						TelaPrincipal exibir = new TelaPrincipal();
 						exibir.setLocationRelativeTo(null);
 						exibir.setVisible(true);
 						
